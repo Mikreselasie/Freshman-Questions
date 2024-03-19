@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logical Fallacy Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Logical Fallacy Quiz</h1>
+    <p>Test your knowledge of logical fallacies!</p>
+    <ol class="questions">
+      <li>
+        <p>The appeal to pity argues that something should be done because it will evoke feelings of sympathy in the audience.</p>
+        <div class="answer-options">
+          <input type="radio" id="q1-answer-a" name="question-1" value="a">
+          <label for="q1-answer-a">True</label>
+          <input type="radio" id="q1-answer-b" name="question-1" value="b">
+          <label for="q1-answer-b">False</label>
+        </div>
+      </li>
+      <li>
+        <p>The slippery slope fallacy suggests that a small first step will inevitably lead to a chain of disastrous events.</p>
+        <div class="answer-options">
+          <input type="radio" id="q2-answer-a" name="question-2" value="a">
+          <label for="q2-answer-a">True</label>
+          <input type="radio" id="q2-answer-b" name="question-2" value="b">
+          <label for="q2-answer-b">False</label>
+        </div>
+      </li>
+      <li>
+        <p>Ad hominem attacks focus on the character of the person making an argument rather than the argument itself.</p>
+        <div class="answer-options">
+          <input type="radio" id="q3-answer-a" name="question-3" value="a">
+          <label for="q3-answer-a">True</label>
+          <input type="radio" id="q3-answer-b" name="question-3" value="b">
+          <label for="q3-answer-b">False</label>
+        </div>
+      </li>
+      <li>
+        <p>Fill in the blank: The _____ fallacy appeals to tradition as a reason to avoid change.</p>
+        <div class="answer-options">
+          <input type="radio" id="q4-answer-a" name="question-4" value="a">
+          <label for="q4-answer-a">Appeal to tradition</label>
+          <input type="radio" id="q4-answer-b" name="question-4" value="b">
+          <label for="q4-answer-b">Bandwagon</label>
+          <input type="radio" id="q4-answer-c" name="question-4" value="c">
+          <label for="q4-answer-c">False dilemma</label>
+        </div>
+      </li>
+      <li>
+        <p>The _____ fallacy assumes that because two events occur together, one must cause the other.</p>
+        <div class="answer-options">
+          <input type="radio" id="q5-answer-a" name="question-5" value="a">
+          <label for="q5-answer-a">Post hoc ergo propter hoc</label>
+          <input type="radio" id="q5-answer-b" name="question-5" value="b">
+          <label for="q5-answer-b">Slippery slope</label>
+          <input type="radio" id="q5-answer-c" name="question-5" value="c">
+          <label for="q5-answer-c">Appeal to pity</label>
+        </div>
+      </li>
+    </ol>
+    <button onclick="checkAnswers()">Submit Quiz</button>
+    <p id="feedback"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
